@@ -1,0 +1,13 @@
+.image-container {
+
+    // works
+    background-image: url('../../angular.png');
+
+    /* works
+    $logo-path: '../angular.png';
+    background-image: url($logo_path); */
+
+    /* doesnt work
+    $logo-path: '../../angular.png';
+    background-image: url($logo_path);*/
+}
